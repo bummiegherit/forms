@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign Up Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h3>Sign up</h3>
+      <p>Sign up to get the latest infomation</p>
+      <div>
+        <form action="success.html" class="forms">
+          <div id="name">
+            <input type="text" name="fname" class="name" placeholder="Firstname" required />
+            <input type="text" name="lname" class="name" placeholder="Lastname" required />
+          </div>
+
+          <div>
+            <input type="tel" name="tel" id="tel" placeholder="Enter Phone Number" />
+          </div>
+          <div>
+            <input type="email" name="email" id="email" placeholder="Enter email" />
+          </div>
+          <div>
+            <input type="password" name="pwrd" id="pwrd" placeholder="Enter Password">
+          </div>
+          <div>
+            <input type="password" name="pwrd" id="pwrd" placeholder="Confirm Password">
+          </div>
+          <div>
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="male" class="gender">
+            <label for="female">Female</label>
+            <input type="radio" name="male" class="gender">
+          </div>
+          <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+          </div>
+          <div>
+            <label for="fcolor">Favorite Colour:</label>
+            <input type="color" name="fcolor" id="fcolor">
+          </div>
+
+          <input type="submit" value="Submit" class="button" />
+        </form>
+      </div>
+      <p>Already have an account? <a href="./login.html">Sign in</a></p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
